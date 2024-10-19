@@ -1,9 +1,10 @@
 <?php
 // Koneksi ke database MySQL
-$servername = "localhost";  // Gunakan "localhost" jika MySQL di Niagahoster berjalan di server yang sama
-$username = "hakimm";  // Username yang Anda buat
-$password = "Punyahakim25!";  // Password yang Anda buat
-$dbname = "portfolio_db";  // Nama database yang Anda buat
+$host = 'localhost';
+$user = 'root';
+$pass = '1234';
+$db = 'portfolio_db';
+$port = 3306;
 
 // Membuat koneksi
 $conn = new mysqli($host, $user, $pass, $db, $port);
